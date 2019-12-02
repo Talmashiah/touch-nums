@@ -1,0 +1,48 @@
+
+.board{
+    text-align: center;
+    padding: 25px;
+}
+
+.board td {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border: black 1px solid;
+    font-size: 40px;
+    cursor: pointer;
+    border-radius: 15%;
+    background-color: whitesmoke;
+}
+
+.board td:hover{
+    background-color: lightblue;
+}
+
+table{
+    border: black 2px solid;
+    margin: auto;
+    background-color: brown;
+}
+
+.board td.success {
+    transition: background-color 0.3s linear;
+    background-color: brown;
+    border: 0px;
+    color: brown;
+}
+
+.board td.success:hover {
+    background-color: brown;
+    border: 0px;
+}
+
+.timer {
+    font-size: 34px;
+}
+
+.next-number{
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: brown;
+}
